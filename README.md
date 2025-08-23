@@ -2,8 +2,8 @@
 **Código:** ESTRUCTURA-DATOS-2025-B-G1 | **Período:** 2025-B | **Grupo:** G1
 
 <div style="background-color: #e8f5e8; padding: 20px; border-left: 5px solid #4CAF50; margin: 20px 0; border-radius: 5px;">
-<h3 style="color: #1b5e20; margin-top: 0;">🎯 Objetivo General</h3>
-<p style="color: #2e7d32; font-weight: 500;">Desarrollar competencias en el diseño, implementación y análisis de estructuras de datos fundamentales y algoritmos eficientes para la resolución de problemas computacionales complejos.</p>
+<h3 style="color: #1b235eff; margin-top: 0;">🎯 Objetivo General</h3>
+<p style="color: #2e357dff; font-weight: 500;">Desarrollar competencias en el diseño, implementación y análisis de estructuras de datos fundamentales y algoritmos eficientes para la resolución de problemas computacionales complejos.</p>
 </div>
 
 ## Descripción General
