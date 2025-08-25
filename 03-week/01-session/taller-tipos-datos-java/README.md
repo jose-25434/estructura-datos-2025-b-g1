@@ -89,3 +89,6 @@ Desarrollar competencias en programación básica y estructuras de datos mediant
 
 - Evidencia:
 • src/evidencias/Ejercicio5_Tiempos.png
+
+## Conclusión
+A lo largo de estos ejercicios, se aplicaron conceptos fundamentales de programación para resolver problemas prácticos. Desde la validación de datos y la compresión de texto hasta la conversión de temperaturas, bases numéricas y operaciones con tiempos, cada actividad permitió reforzar el uso de ciclos, arreglos, validaciones y operaciones matemáticas.
