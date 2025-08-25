@@ -10,7 +10,7 @@ Desarrollar competencias en programación básica y estructuras de datos mediant
 
 ## Actividades 
 
-## Ejercicio 1: Verificador de ISBN-13
+## Ejercicio 1: ISBN-13
 
 - Descripción:
 • En este ejercicio aprenderás a verificar si un código ISBN-13 es válido. Este número es el que se usa para identificar cada libro de manera única. El programa comprobará la validez del código calculando su dígito de control mediante operaciones matemáticas sencillas y reglas predefinidas.
@@ -26,7 +26,7 @@ Desarrollar competencias en programación básica y estructuras de datos mediant
 - Evidencia:
 • src/evidencias/Ejercicio1_ISBN13.png
 
-## Ejercicio 2: Compresión Run-Length (RLE)
+## Ejercicio 2: RLE
 
 - Descripción:
 • En este ejercicio crearás un programa que implemente Run-Length Encoding (RLE), una técnica básica de compresión que “resume” cadenas de texto. La lógica es sencilla: si un carácter aparece varias veces seguidas, se reemplaza por el carácter seguido del número de repeticiones.
@@ -42,7 +42,7 @@ Desarrollar competencias en programación básica y estructuras de datos mediant
 - Evidencia:
 • src/evidencias/Ejercicio2_RLE.png
 
-## Ejercicio 3: Conversor de Temperaturas
+## Ejercicio 3: Temperaturas
 
 - Descripción:
 • En este ejercicio programarás un convertidor de temperaturas que trabaje con Celsius, Fahrenheit y Kelvin. Solo necesitas ingresar una temperatura en cualquiera de estas escalas, y el programa mostrará su equivalencia en las otras dos.
@@ -58,7 +58,7 @@ Desarrollar competencias en programación básica y estructuras de datos mediant
 - Evidencia:
 • src/evidencias/Ejercicio3_Temperaturas.png
 
-## Ejercicio 4: Conversión entre Bases Numéricas
+## Ejercicio 4: Conversor Bases
 
 - Descripción:
 • En este ejercicio desarrollarás un conversor de sistemas numéricos que trabaje con las bases binaria, octal, decimal y hexadecimal. Aunque podrás apoyarte en funciones integradas de Java, también aprenderás el proceso manual de conversión para comprender mejor cómo funcionan estos sistemas.
@@ -74,7 +74,7 @@ Desarrollar competencias en programación básica y estructuras de datos mediant
 - Evidencia:
 • src/evidencias/Ejercicio4_ConversorBases.png
 
-## Ejercicio 5: Operaciones con Tiempos
+## Ejercicio 5: Tiempos
 
 - Descripción:
 • En este ejercicio crearás un programa que trabaje con horarios en formato hh:mm:ss. Los valores se convertirán a segundos para realizar sumas o restas, y luego se mostrarán nuevamente en el mismo formato. Es ideal para calcular duraciones y totales de tiempo de forma sencilla.
