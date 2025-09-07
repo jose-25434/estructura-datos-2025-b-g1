@@ -1,6 +1,3 @@
-Clase Registro:
- Nodo de lista doble que almacena operaciones en la bitácora.
-*/
 public class Registro {
     String tipo;
     String detalle;
@@ -14,6 +11,7 @@ public class Registro {
         ant = null;
     }
 
+    @Override
     public String toString() {
         return "[" + tipo + "] " + detalle;
     }

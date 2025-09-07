@@ -1,6 +1,3 @@
-Clase Renta:
- Nodo de lista simple que representa un préstamo/renta.
-*/
 public class Renta {
     int idPublicacion;
     String usuario;

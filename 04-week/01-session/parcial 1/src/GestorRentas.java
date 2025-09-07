@@ -1,9 +1,3 @@
- Clase GestorRentas:
- Implementa lista simple de rentas activas.
- Complejidad:
- - Insertar/Eliminar: O(n)
- - Recorrer: O(n)
-*/
 public class GestorRentas {
     Renta inicio;
 

@@ -1,9 +1,3 @@
-Clase Biblioteca:
- Administra publicaciones usando un array fijo y una matriz 2D para sucursales.
- Complejidad:
- - Alta/Baja/Búsqueda: O(n)
- - Modificar stock: O(1)
-*/
 public class Biblioteca {
     Publicacion[] publicaciones;
     int[][] existencias;
@@ -28,9 +22,7 @@ public class Biblioteca {
         }
 
         publicaciones[total] = p;
-        for (int j = 0; j < sucursales.length; j++) {
-            existencias[total][j] = sucursales[j];
-        }
+        System.arraycopy(sucursales, 0, existencias[total], 0, sucursales.length);
         total++;
         return true;
     }

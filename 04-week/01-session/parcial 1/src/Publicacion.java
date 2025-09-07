@@ -1,7 +1,3 @@
- Clase Publicacion:
- Representa un libro o publicación dentro de la biblioteca.
- Incluye un flag "activo" para baja lógica.
-*/
 public class Publicacion {
     int id;
     String titulo;
@@ -17,6 +13,7 @@ public class Publicacion {
         this.activo = true;
     }
 
+    @Override
     public String toString() {
         return "ID: " + id + " | Título: " + titulo + " | Autor: " + autor +
                " | Ejemplares: " + stock + " | Activo: " + activo;
