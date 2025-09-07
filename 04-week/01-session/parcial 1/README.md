@@ -1,5 +1,8 @@
 ## Sistema de Biblioteca (Proyecto en Java)
-
+Autor
+Nombre: Jose Gabriel David Mendez
+Ingeniería en Sistemas
+Tercer Semestre
 ## 📌 Descripción
 Este sistema permite administrar un catálogo de publicaciones, registrar rentas activas y llevar un historial de operaciones.  
 Está implementado en Java utilizando *arrays, listas simples y listas dobles*, y se maneja desde un menú de consola.
