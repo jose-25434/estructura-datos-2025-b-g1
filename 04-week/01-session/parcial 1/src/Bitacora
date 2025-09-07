@@ -1,0 +1,40 @@
+Clase Bitacora:
+ Implementa lista doble para historial de operaciones.
+ Complejidad:
+ - Insertar al final: O(1)
+ - Recorrer adelante/atrás: O(n)
+*/
+public class Bitacora {
+    Registro inicio;
+    Registro fin;
+
+    public void agregar(String tipo, String detalle) {
+        Registro nuevo = new Registro(tipo, detalle);
+        if (inicio == null) {
+            inicio = nuevo;
+            fin = nuevo;
+        } else {
+            fin.sig = nuevo;
+            nuevo.ant = fin;
+            fin = nuevo;
+        }
+    }
+
+    public void mostrarAdelante() {
+        System.out.println("\n--- Bitácora adelante ---");
+        Registro temp = inicio;
+        while (temp != null) {
+            System.out.println(temp);
+            temp = temp.sig;
+        }
+    }
+
+    public void mostrarAtras() {
+        System.out.println("\n--- Bitácora atrás ---");
+        Registro temp = fin;
+        while (temp != null) {
+            System.out.println(temp);
+            temp = temp.ant;
+        }
+    }
+}
