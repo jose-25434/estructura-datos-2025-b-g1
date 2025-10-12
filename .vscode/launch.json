@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TallerEstructuraDatos",
+            "request": "launch",
+            "mainClass": "TallerEstructuraDatos",
+            "projectName": "estructura-datos-2025-b-g1_90a1a30f"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio1_ISBN13",
+            "request": "launch",
+            "mainClass": "Ejercicio1_ISBN13",
+            "projectName": "estructura-datos-2025-b-g1_90a1a30f"
+        },
+        {
+            "type": "java",
+            "name": "TypeIf",
+            "request": "launch",
+            "mainClass": "type.TypeIf",
+            "projectName": "estructura-datos-2025-b-g1_90a1a30f"
+        },
+        {
+            "type": "java",
             "name": "AppBiblioteca",
             "request": "launch",
             "mainClass": "AppBiblioteca",
